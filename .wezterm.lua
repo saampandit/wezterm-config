@@ -20,4 +20,21 @@ config.window_padding = {
   bottom = 0,
 }
 config.enable_scroll_bar = true
+-- How many lines of scrollback you want to retain per tab
+config.scrollback_lines = 5000
+
+-- This increases color saturation by 50%
+config.window_background_image = 'C:\\Tech\\neondragon.jpg'
+
+config.window_background_image_hsb = {
+  -- Darken the background image by reducing it to 1/3rd
+  brightness = 0.3,
+
+  -- You can adjust the hue by scaling its value.
+  -- a multiplier of 1.0 leaves the value unchanged.
+  hue = 1.0,
+
+  -- You can adjust the saturation also.
+  saturation = 1.0,
+}
 return config
